@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>  
+
+<!--   
+    根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画  
+    根标签下，通过item标签对动画中的每一个图片进行声明  
+    android:duration 表示展示所用的该图片的时间长度  
+ -->  
+ 
+<animation-list  
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    >  
+    <!--   
+    <item android:drawable="@drawable/dropdown_anim_00" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_01" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_02" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_03" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_04" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_05" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_06" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_07" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_08" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_09" android:duration="100"/>  
+    <item android:drawable="@drawable/dropdown_anim_10" android:duration="100"/>  
+    -->
+    
+    <item android:drawable="@drawable/dropdown_loading_00" android:duration="130"/>  
+    <item android:drawable="@drawable/dropdown_loading_01" android:duration="130"/>  
+    <item android:drawable="@drawable/dropdown_loading_02" android:duration="130"/>  
+    
+</animation-list>   
+
